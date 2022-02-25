@@ -20,6 +20,7 @@
             "backend": [
                 {
                     "host": [ "https://dotnetexample-okd-tutorial.apps.blackwhale.cloud.hancom.com" ],
+                    "is_collection": true, // use this one
                     "url_pattern": "/document"
                 }
             ]
