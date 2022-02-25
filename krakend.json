@@ -7,7 +7,16 @@
     "host": [ "a1e1e88d4cf2b48f2ac7666e1c490572-413231802.ap-northeast-2.elb.amazonaws.com" ],
     "endpoints": [
         {
-            "endpoint": "/api/doc",
+            "endpoint": "/debug",
+            "backend": [
+                {
+                    "host": [ "http://krakend-service:8000" ],
+                    "url_pattern": "/__debug/debug"
+                }
+            ]
+        },
+        {
+            "endpoint": "/doc",
             "backend": [
                 {
                     "host": [ "https://dotnetexample-okd-tutorial.apps.blackwhale.cloud.hancom.com" ],
