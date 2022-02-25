@@ -10,7 +10,7 @@
             "endpoint": "/debug",
             "backend": [
                 {
-                    "host": [ "http://krakend-service" ],
+                    "host": [ "https://krakend-service:443" ],
                     "url_pattern": "/__debug/debug"
                 }
             ]
