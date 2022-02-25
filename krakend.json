@@ -4,7 +4,7 @@
     "port": 8080,
     "cache_ttl": "3600s",
     "timeout": "3s",
-    "host": [ "a774177673857461cb15b93ed1bb96a9-1918783943.ap-northeast-2.elb.amazonaws.com" ],
+    "host": [ "a1e1e88d4cf2b48f2ac7666e1c490572-413231802.ap-northeast-2.elb.amazonaws.com" ],
     "endpoints": [
         {
             "endpoint": "/api/doc",
