@@ -16,7 +16,7 @@
             ]
         },
         {
-            "endpoint": "/doc",
+            "endpoint": "/api/doc",
             "backend": [
                 {
                     "host": [ "https://dotnetexample-okd-tutorial.apps.blackwhale.cloud.hancom.com" ],
