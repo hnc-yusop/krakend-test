@@ -4,7 +4,7 @@
     "port": 8080,
     "cache_ttl": "3600s",
     "timeout": "3s",
-    "host": [ "a1e1e88d4cf2b48f2ac7666e1c490572-413231802.ap-northeast-2.elb.amazonaws.com" ],
+    "host": [ "api-gw.blackwhale.cloud.hancom.com" ],
     "endpoints": [
         {
             "endpoint": "/debug",
